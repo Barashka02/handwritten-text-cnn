@@ -21,7 +21,7 @@ The **Handwritten Text Recognition (HTR) System** is a project developed to reco
 - **CNN Model**: A robust Convolutional Neural Network tailored for character recognition.
 - **Image Processing Pipeline**: Efficient segmentation of handwritten sentences into individual characters.
 - **Space Detection**: Dynamic identification of spaces between words to reconstruct accurate sentences.
-- **User Interface**: (If implemented) A Streamlit GUI for uploading and processing custom handwritten images.
+- **User Interface**: A Streamlit GUI for uploading and processing custom handwritten images.
 
 ## **Installation**
 
