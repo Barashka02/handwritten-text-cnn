@@ -1,9 +1,35 @@
-# handwritten-text-cnn
-This project is an image processing project/CNN that takes the image of a handwritten sentence, and shows an image of segmented/identified letters, as well a terminal output of the sentence strings
+# Handwritten Text Recognition System
 
-It currently has functionlity for a streamlit gui. This allows the user to upload a file, the gui will run the code and return the identified sentance automatically 
---- To run this just enter streamlit run gui.py.
+![Project Logo](ece_horiz.pdf)
 
-This is the first version.  It's pretty limited in how many different types of handwriting it can recognize.  The next step is to improve the segmnetion algorithm.
+## **Table of Contents**
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Example Images](#example-images)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
-The CNN the is used for the character identification has an accuracy rate of about 93.5%
+## **Introduction**
+The **Handwritten Text Recognition (HTR) System** is a project developed to recognize and interpret handwritten sentences. This system leverages a **Convolutional Neural Network (CNN)** trained on the EMNIST Letters dataset to accurately identify individual handwritten characters. The project encompasses the creation and training of the CNN model, followed by image processing techniques to segment and detect characters within handwritten sentences.
+
+## **Features**
+- **CNN Model**: A robust Convolutional Neural Network tailored for character recognition.
+- **Image Processing Pipeline**: Efficient segmentation of handwritten sentences into individual characters.
+- **Space Detection**: Dynamic identification of spaces between words to reconstruct accurate sentences.
+- **User Interface**: (If implemented) A Streamlit GUI for uploading and processing custom handwritten images.
+
+## **Installation**
+
+### **Prerequisites**
+- Python 3.8 or higher
+- Git
+
+### **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
